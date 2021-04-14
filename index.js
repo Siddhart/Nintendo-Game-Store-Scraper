@@ -22,7 +22,7 @@ function main() {
             gameList.push(dataObj)
         })
 
-        fs.writeFileSync('./bruh.json', JSON.stringify(gameList))
+        fs.writeFileSync('./GameList.json', JSON.stringify(gameList))
     })
 }
 
